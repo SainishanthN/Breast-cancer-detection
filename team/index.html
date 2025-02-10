@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Members</title>
+    <h1>TEAM MEMBERS</h1>
+    <style>
+      h1 {
+        text-align: center;
+        color: black;
+      }
+      .image-container {
+        display: flex; /* Use flexbox for horizontal layout */
+        justify-content: center; /* Center images horizontally */
+        gap: 10px; /* Space between images */
+      }
+
+      .image-box {
+        width: 350px; /* Set fixed width */
+        text-align: center; /* Center text under images */
+      }
+
+      .image-box img {
+        width: 350px; /* Set fixed width */
+        height: 400px; /* Set fixed height */
+        object-fit: cover; /* Ensure the image covers the area without stretching */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <div class="image-box">
+        <img src="nishanth.jpg" alt="Sai nishanth" />
+        <h2>N. Sai Nishanth</h2>
+      </div>
+      <div class="image-box">
+        <img src="mayukha.png" alt="Mayukha" />
+        <h2>Mayukha</h2>
+      </div>
+      <div class="image-box">
+        <img src="dheeraj.jpg" alt="Dheeraj" />
+        <h2>Dheeraj</h2>
+      </div>
+    </div>
+  </body>
+</html>
